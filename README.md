@@ -85,7 +85,7 @@ python scripts/build_index.py --data data/processed.jsonl --outdir artifacts/ind
 python scripts/train_refiner.py --train data/processed.jsonl --outdir artifacts/refiner
 ```
 - Baseline “warm‑up” scaffold that saves a generator checkpoint to `artifacts/refiner/`
-- Replace with full seq2seq training for your paper if applicable
+
 
 ### 3) Run XM‑RAG (retrieve → refine → generate)
 ```bash
