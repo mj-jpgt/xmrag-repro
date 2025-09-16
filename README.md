@@ -2,7 +2,7 @@
 # XM-RAG: Cross‑Modal Retrieval‑Augmented Generation (Reproducible Base)
 
 ## Introduction
-This repository contains a clean, modular base to **reproduce** and **extend** results for **cross‑modal, multi‑hop question answering** using **unified retrieval + generation**. The pipeline—**XM‑RAG**—builds **text** and **image** indices, retrieves top‑k evidence from both modalities, **fuses** them with a transparent weighting, optionally **refines** the evidence into a compact representation, and finally **generates** an answer with a seq2seq model.
+This repository contains a clean, modular base to **reproduce** and **extend** results for **cross‑modal, multi‑hop question answering** using **unified retrieval + generation**. Our pipeline **XM‑RAG** builds **text** and **image** indices, retrieves top‑k evidence from both modalities, **fuses** them with a transparent weighting, optionally **refines** the evidence into a compact representation, and finally **generates** an answer.
 
 This codebase is structured for **ICLR/GitHub reproducibility**: one‑command scripts, JSONL data schema, deterministic seeds, and per‑modality metrics.
 
@@ -51,7 +51,7 @@ retrieval:
   alpha: 0.6   # text vs image fusion weight
 ```
 
-You can point `generator` to a local fine‑tuned checkpoint directory (e.g., `artifacts/refiner/`).
+You can point `generator` to a local checkpoint directory (e.g., `artifacts/refiner/`).
 
 ---
 
