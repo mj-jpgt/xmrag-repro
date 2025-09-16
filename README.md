@@ -6,7 +6,8 @@ This repository contains a clean, modular base to **reproduce** and **extend** r
 
 This codebase is structured for **ICLR/GitHub reproducibility**: one‑command scripts, JSONL data schema, deterministic seeds, and per‑modality metrics.
 
-<p align="center"><img alt="XM-RAG Diagram" src="docs/diagram_placeholder.png" width="640"/></p>
+
+
 
 ---
 
@@ -151,20 +152,4 @@ If your setup uses entity/relation extraction or table linearization:
 
 Exact versions are pinned in `requirements.txt` for reproducibility.
 
----
 
-## Citation
-If you use this repository in your research, please cite:
-```bibtex
-@software{{xmrag-2025}},
-  title        = {{XM-RAG}: Cross-Modal Retrieval-Augmented Generation (Reproducible Base)},
-  author       = {{Abejide, Francis} and Contributors},
-  year         = {{2025}},
-  url          = {{https://github.com/your-org/xmrag}}  % replace with your repo
-}}
-```
-
----
-
-## License
-This project is released under the **MIT License** (see `LICENSE`). If your upstream datasets/models use different licenses, please comply with their terms.
