@@ -1,5 +1,5 @@
 
-# XM-RAG: Cross‑Modal Retrieval‑Augmented Generation (Reproducible Base)
+# XM-RAG: Cross‑Modal Cross-Lingual Retrieval‑Augmented Generation(Reproducible Base)
 
 ## Introduction
 This repository contains a clean, modular base to **reproduce** and **extend** results for **cross‑modal, multi‑hop question answering** using **unified retrieval + generation**. Our pipeline **XM‑RAG** builds **text** and **image** indices, retrieves top‑k evidence from both modalities, **fuses** them with a transparent weighting, optionally **refines** the evidence into a compact representation, and finally **generates** an answer.
